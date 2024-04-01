@@ -1,0 +1,17 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3"
+  }
+}
