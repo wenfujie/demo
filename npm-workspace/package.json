@@ -1,0 +1,24 @@
+{
+  "name": "npm-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install",
+    "dev": "npm run dev -w game-a"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  },
+  "workspaces": [
+    "game-a",
+    "share"
+  ]
+}
