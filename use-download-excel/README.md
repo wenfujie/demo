@@ -22,3 +22,10 @@ export class ExcelExport {
   }
 }
 ```
+
+## 启动demo
+
+```bash
+pnpm i
+pnpm dev
+```
